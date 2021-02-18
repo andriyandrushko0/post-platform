@@ -8,8 +8,14 @@ class Post(models.Model):
     amount_of_upvotes = models.IntegerField(default=0)
     author_name = models.CharField(max_length=255)
 
+    def __str__(self):
+        return self.title
+
 
 class PostComment(models.Model):
     author_name = models.CharField(max_length=255)
     content = models.TextField()
     creation_date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.content
