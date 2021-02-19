@@ -1,6 +1,6 @@
 <h1>Simple post platform based on Django Rest Framework</h1>
 <p>By Andriy Andrushko</p>
-
+<h4><a href="#">Project on Heroku</a></h4>
 <h6>Contents</h6>
 <ul>
     <li><a href="#description">Description</a></li>
